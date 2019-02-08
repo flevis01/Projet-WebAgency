@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+#slideshow {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    padding: 0px;
+    margin: 0
+    background: #FFF;
+    background: -webkit-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+    background: -moz-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+    background: -ms-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+    background: -o-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+    background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+    /*-- CSS3 --*/
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    border-radius: 2px 2px 2px 2px;
+
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+    -moz-box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+    box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+}
+/*-- Ombrage CSS3 --*/
+#slideshow:before,  
+#slideshow:after {  
+    position: absolute;  
+    bottom:16px;  
+    z-index: -10;  
+    width: 50%;  
+    height: 20px;  
+    content: " ";  
+    background: rgba(0,0,0,0.1);
+
+    -webkit-border-radius: 50%;  
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);
+    -moz-border-radius: 50%;  
+    -moz-box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);  
+    border-radius: 50%;  
+    box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);  
+}  
+#slideshow:before {  
+    left:0;  
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg); 
+    transform: rotate(-4deg); 
+}  
+#slideshow:after {  
+    right:0;  
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg); 
+    transform: rotate(4deg);  
+}
