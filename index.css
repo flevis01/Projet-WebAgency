@@ -269,7 +269,8 @@ figcaption:hover {
 	top: 62%;
 	width: 97%;
 	height: 34%;
-	background-color: rgba(0, 0, 0, 0.5)
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 1;
 }
 
 .item_pres p {
