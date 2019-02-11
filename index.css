@@ -270,7 +270,6 @@ figcaption:hover {
 	width: 97%;
 	height: 34%;
 	background-color: rgba(0, 0, 0, 0.5);
-	opacity: 1;
 }
 
 .item_pres p {
@@ -289,7 +288,7 @@ figcaption:hover {
 	position: absolute;
 	top:-0.4em;
 	right: 1.1em;
-	opcity: 1;
+	opacity: 1;
 }
 
 /* contact */
