@@ -233,11 +233,11 @@ header i {
 #projects_menu li:first-child {
 	background-color: #5cadd3;
 	border-radius: 4px 0 0 4px;
-    height: 36px;
+    	height: 36px;
 	color: white;
 	border-bottom: 3px solid #4494bb;
-    position: relative;
-    border-left: 1px solid #e5e5e5;
+    	position: relative;
+   	border-left: 1px solid #e5e5e5;
 }
 
 #projects_menu li:last-child {
@@ -259,7 +259,7 @@ header i {
     	color: #4494bb;
     	padding: 0;
     	margin-bottom: 2px;
-	bottom: -15px;
+	bottom: -14px;
 }
 
 #projects_menu li:hover i{
