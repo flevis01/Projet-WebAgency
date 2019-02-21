@@ -225,8 +225,8 @@ header i {
 	font-family: "Roboto","Cambria", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	text-align: center;
 	width: 110px;
-    height: 40px;
-    line-height: 40px;
+    	height: 40px;
+    	line-height: 40px;
 	background-color: #E4E4E4;
 }
 
@@ -246,19 +246,19 @@ header i {
 
 #projects_menu li:hover {
 	background-color: #5cadd3;
-    height: 36px;
+    	height: 36px;
 	color: white;
 	border-bottom: 3px solid #4494bb;
-    position: relative;
+    	position: relative;
 }
 
 #projects_menu i {
 	opacity: 0;
 	position: absolute;
-    left: 45%;
-    color: #4494bb;
-    padding: 0;
-    margin-bottom: 2px;
+    	left: 45%;
+    	color: #4494bb;
+    	padding: 0;
+    	margin-bottom: 2px;
 	bottom: -15px;
 }
 
@@ -459,6 +459,10 @@ input, textarea {
 	}
 	
 	/*portfolio*/
+	
+	#projects_menu li{
+		width: 80px;
+	}
 	
 	.en_tete p{
 		margin: 2em;
